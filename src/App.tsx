@@ -1,9 +1,9 @@
 import {RouterProvider} from "react-router-dom"
-import { mainRoutes } from "./routes/mainRoutes"
+import { mainRoute } from "./router/mainRoute"
 export const App = () => {
   return (
     <div>
-      <RouterProvider router={mainRoutes}/>
+      <RouterProvider router={mainRoute}/>
     </div>
   )
 }
